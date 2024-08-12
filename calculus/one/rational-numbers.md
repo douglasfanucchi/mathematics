@@ -18,25 +18,6 @@ Associative:
 - (A1) $(x + y) + z = x + (y + z)$
 - (M1) $(xy)z = x(yz)$
 
----
-A1 proof:
-
-$x \in \mathbb{Q} \Rightarrow x = \frac{a_1}{b_1}$ where $a_1,b_1 \in \mathbb{Z}$
-
-$y \in \mathbb{Q} \Rightarrow y = \frac{a_2}{b_2}$ where $a_2,b_2 \in \mathbb{Z}$
-
-$z \in \mathbb{Q} \Rightarrow z = \frac{a_3}{b_3}$ where $a_3,b_3 \in \mathbb{Z}$
-
-$(x + y) + z = \frac{a_1 b_2 b_3 + a_2b_1 b_3 + a_3 b_1 b_2}{b_1 b_2 b_3}$
-
-$x + (y + z) = \frac{a_1}{b_1} + \frac{a_2 b_3 + a_3 b_2}{b_2 b_3} = \frac{a_1 b_2 b_3 + b_1(a_2 b_3 + a_3 b_2)}{b_1 b_2 b_3}$
-
-$ = \frac{a_1 b_2 b_3 + a_2 b_1 b_3 + a_3 b_1 b_2}{b_1 b_2 b_3} = (x + y) + z$
-
-$ \Rightarrow (x + y) + z = x + (y + z)$
-
----
-
 Commutative:
 - (A2) $x + y = y + x$
 - (M2) $xy = yx$
@@ -67,21 +48,6 @@ $x \le x $
 
 $x \le y\ \land\ y \le x \Longrightarrow x = y$
 
----
-Proof: 
-
-$x \leq y\ \Rightarrow \exists|\ t_1 \in \mathbb{Q},\ t_1 \geq 0\ |\ y = x+ t_1$
-
-$y \le x\ \Rightarrow \exists|\ t_2 \in \mathbb{Q},\ t_2 \geq 0\ |\ x = y + t_2$
-
-$ x \leq y\ \land\ y \leq x\ \Rightarrow y = y + t_2 + t_1$
-
-$\Rightarrow 0 = t_2 + t_1$
-
-$0 = t_2 + t_1\ \land\ t_1, t_2 \geq 0 \Longrightarrow t_1 = t_2 = 0$
-
-$t_1 = t_2 = 0\ \land\ y = x + t_1 \Longrightarrow y = x$ 
-
 (O3) Transitive:
 
 $x \leq y \ \land\ y\leq z \Longrightarrow x \leq z$
@@ -101,3 +67,36 @@ $z \ge 0$
 $x \leq y \Longrightarrow xz \leq yz$
 
 Ps.: Let a set $\mathbb{K}$ with at least two elements and being the opperations sum and product defined in $\mathbb{K}$. If the triplet ($\mathbb{K}, +, \cdot$) satisfies the properties A1 - A4, M1 - M4 and D, then ($\mathbb{K},+, \cdot$) is a field. Besides that, if it is defined a relation ($\leq$) in $\mathbb{K}$ and the quadriple ($\mathbb{K}, +, \cdot, \leq$) satisfies all 15 listed properties, then $(\mathbb{K}, +, \cdot, \leq)$ is an ordered field. Note that ($\mathbb{Q}, +, \cdot, \leq$) is an ordered field while ($\mathbb{Z}, +, \cdot, \leq$) is not even a field since it does not satisfy (M4).
+
+
+---
+A1 proof:
+
+$x \in \mathbb{Q} \Rightarrow x = \frac{a_1}{b_1}$ where $a_1,b_1 \in \mathbb{Z}$
+
+$y \in \mathbb{Q} \Rightarrow y = \frac{a_2}{b_2}$ where $a_2,b_2 \in \mathbb{Z}$
+
+$z \in \mathbb{Q} \Rightarrow z = \frac{a_3}{b_3}$ where $a_3,b_3 \in \mathbb{Z}$
+
+$(x + y) + z = \frac{a_1 b_2 b_3 + a_2b_1 b_3 + a_3 b_1 b_2}{b_1 b_2 b_3}$
+
+$x + (y + z) = \frac{a_1}{b_1} + \frac{a_2 b_3 + a_3 b_2}{b_2 b_3} = \frac{a_1 b_2 b_3 + b_1(a_2 b_3 + a_3 b_2)}{b_1 b_2 b_3}$
+
+$ = \frac{a_1 b_2 b_3 + a_2 b_1 b_3 + a_3 b_1 b_2}{b_1 b_2 b_3} = (x + y) + z$
+
+$ \Rightarrow (x + y) + z = x + (y + z)$
+
+---
+O2 proof: 
+
+$x \leq y\ \Rightarrow \exists|\ t_1 \in \mathbb{Q},\ t_1 \geq 0\ |\ y = x+ t_1$
+
+$y \le x\ \Rightarrow \exists|\ t_2 \in \mathbb{Q},\ t_2 \geq 0\ |\ x = y + t_2$
+
+$ x \leq y\ \land\ y \leq x\ \Rightarrow y = y + t_2 + t_1$
+
+$\Rightarrow 0 = t_2 + t_1$
+
+$0 = t_2 + t_1\ \land\ t_1, t_2 \geq 0 \Longrightarrow t_1 = t_2 = 0$
+
+$t_1 = t_2 = 0\ \land\ y = x + t_1 \Longrightarrow y = x$ 
