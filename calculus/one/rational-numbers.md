@@ -18,6 +18,25 @@ Associative:
 - (A1) $(x + y) + z = x + (y + z)$
 - (M1) $(xy)z = x(yz)$
 
+---
+A1 proof:
+
+$x \in \mathbb{Q} \Rightarrow x = \frac{a_1}{b_1}$ where $a_1,b_1 \in \mathbb{Z}$
+
+$y \in \mathbb{Q} \Rightarrow y = \frac{a_2}{b_2}$ where $a_2,b_2 \in \mathbb{Z}$
+
+$z \in \mathbb{Q} \Rightarrow z = \frac{a_3}{b_3}$ where $a_3,b_3 \in \mathbb{Z}$
+
+$(x + y) + z = \frac{a_1 b_2 b_3 + a_2b_1 b_3 + a_3 b_1 b_2}{b_1 b_2 b_3}$
+
+$x + (y + z) = \frac{a_1}{b_1} + \frac{a_2 b_3 + a_3 b_2}{b_2 b_3} = \frac{a_1 b_2 b_3 + b_1(a_2 b_3 + a_3 b_2)}{b_1 b_2 b_3}$
+
+$ = \frac{a_1 b_2 b_3 + a_2 b_1 b_3 + a_3 b_1 b_2}{b_1 b_2 b_3} = (x + y) + z$
+
+$ \Rightarrow (x + y) + z = x + (y + z)$
+
+---
+
 Commutative:
 - (A2) $x + y = y + x$
 - (M2) $xy = yx$
