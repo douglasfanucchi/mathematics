@@ -48,6 +48,21 @@ $x \le x $
 
 $x \le y\ \land\ y \le x \Longrightarrow x = y$
 
+---
+Proof: 
+
+$x \leq y\ \Rightarrow \exists|\ t_1 \in \mathbb{Q},\ t_1 \geq 0\ |\ y = x+ t_1$
+
+$y \le x\ \Rightarrow \exists|\ t_2 \in \mathbb{Q},\ t_2 \geq 0\ |\ x = y + t_2$
+
+$ x \leq y\ \land\ y \leq x\ \Rightarrow y = y + t_2 + t_1$
+
+$\Rightarrow 0 = t_2 + t_1$
+
+$0 = t_2 + t_1\ \land\ t_1, t_2 \geq 0 \Longrightarrow t_1 = t_2 = 0$
+
+$t_1 = t_2 = 0\ \land\ y = x + t_1 \Longrightarrow y = x$ 
+
 (O3) Transitive:
 
 $x \leq y \ \land\ y\leq z \Longrightarrow x \leq z$
