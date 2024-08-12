@@ -67,3 +67,7 @@ $x \leq y \Longrightarrow x +z \leq y + z$
 $z \ge 0$
 
 $x \leq y \Longrightarrow xz \leq yz$
+
+$\newcommand{\K}{\mathbb{K}}$
+
+Ps.: Let a set $\K$ with at least two elements and being the opperations sum and product defined in $\K$. If the triplet ($\K, +, \cdot$) satisfies the properties A1 - A4, M1 - M4 and D, then ($\K,+, \cdot$) is a field. Besides that, if it is defined a relation ($\leq$) in $\K$ and the quadriple ($\K, +, \cdot, \leq$) satisfies all 15 listed properties, then $(\K, +, \cdot, \leq)$ is an ordered field. Note that ($\Q, +, \cdot, \leq$) is an ordered field while ($\Z, +, \cdot, \leq$) is not even a field since it does not satisfy (M4).
