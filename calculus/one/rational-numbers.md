@@ -34,7 +34,7 @@ $\exists|\ y \in \mathbb{Q} \mid x + y = 0$, we denote $y$ as $-x$.
 
 (M4) Multiplication inverse:
 
-$\forall x \in \mathbb{Q} $ and $x \neq 0$, $x \cdot y = 1$. We denote $y$ as $x^{-1}$ or $\frac{1}{x}$
+$\forall x \in \mathbb{Q}$ and $x \neq 0$, $x \cdot y = 1$. We denote $y$ as $x^{-1}$ or $\frac{1}{x}$
 
 (D) Distributive:
 
@@ -82,9 +82,9 @@ $(x + y) + z = \frac{a_1 b_2 b_3 + a_2b_1 b_3 + a_3 b_1 b_2}{b_1 b_2 b_3}$
 
 $x + (y + z) = \frac{a_1}{b_1} + \frac{a_2 b_3 + a_3 b_2}{b_2 b_3} = \frac{a_1 b_2 b_3 + b_1(a_2 b_3 + a_3 b_2)}{b_1 b_2 b_3}$
 
-$ = \frac{a_1 b_2 b_3 + a_2 b_1 b_3 + a_3 b_1 b_2}{b_1 b_2 b_3} = (x + y) + z$
+$= \frac{a_1 b_2 b_3 + a_2 b_1 b_3 + a_3 b_1 b_2}{b_1 b_2 b_3} = (x + y) + z$
 
-$ \Rightarrow (x + y) + z = x + (y + z)$
+$\Rightarrow (x + y) + z = x + (y + z)$
 
 ---
 M1 proof:
@@ -106,7 +106,7 @@ $x \leq y\ \Rightarrow \exists|\ t_1 \in \mathbb{Q},\ t_1 \geq 0\ |\ y = x+ t_1$
 
 $y \le x\ \Rightarrow \exists|\ t_2 \in \mathbb{Q},\ t_2 \geq 0\ |\ x = y + t_2$
 
-$ x \leq y\ \land\ y \leq x\ \Rightarrow y = y + t_2 + t_1$
+$x \leq y\ \land\ y \leq x\ \Rightarrow y = y + t_2 + t_1$
 
 $\Rightarrow 0 = t_2 + t_1$
 
