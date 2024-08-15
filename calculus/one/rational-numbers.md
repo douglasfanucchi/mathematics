@@ -68,6 +68,57 @@ $x \leq y \Longrightarrow xz \leq yz$
 
 Ps.: Let a set $\mathbb{K}$ with at least two elements and being the opperations sum and product defined in $\mathbb{K}$. If the triplet ($\mathbb{K}, +, \cdot$) satisfies the properties A1 - A4, M1 - M4 and D, then ($\mathbb{K},+, \cdot$) is a field. Besides that, if it is defined a relation ($\leq$) in $\mathbb{K}$ and the quadriple ($\mathbb{K}, +, \cdot, \leq$) satisfies all 15 listed properties, then $(\mathbb{K}, +, \cdot, \leq)$ is an ordered field. Note that ($\mathbb{Q}, +, \cdot, \leq$) is an ordered field while ($\mathbb{Z}, +, \cdot, \leq$) is not even a field since it does not satisfy (M4).
 
+A rational number can be geometric represented as a point in a line. This is done by randomly choosing two points, one for 0 and other for 1. The line which extremities are 0 and 1 will be the base size in order to get any other point.
+
+If a point $P$ represents a rational number $r$, then $r$ is the abscissa of $P$. Note that every rational number has a point representing it on the line but not every point in the line represents a rational number.
+
+Before talking about points that does not represent rational number, let's se some demonstrations.
+
+$i)$ Given an odd number, its square is odd.
+
+$p = 2k + 1, k \in \mathbb{Z} \Rightarrow p^2 = 2q + 1, q \in \mathbb{Z}$
+
+$p = 2k + 1, k \in \mathbb{Z}$
+
+$\Rightarrow p^2 = 4k^2 + 4k + 1$
+
+$\Rightarrow p^2 = 2k(2k + 2) + 1$
+
+We can define $2k + 2 = q$, then $p^2 = 2q + 1, q \in \mathbb{Z}$ qed.
+
+$ii)$ Given a square number which is even, its square root is also even.
+
+$a^2 = 2k, k \in \mathbb{Z} \Rightarrow a = 2p, p \in \mathbb{Z}$
+
+Let's suppose that $p$ is odd then by $(i)$, $p^2$ also is odd which contradicts our assumption. Therefore $p$ can only be even qed.
+
+$iii)$ The equation $x^2 = 2$ has no solutions in $\mathbb{Q}$
+
+Suppose that $x \in \mathbb{Q}$, then $x = \frac{p}{q}, GDC(p, q) = 1$
+
+$x = \frac{p}{q} \Rightarrow x^2=\frac{p^2}{q^2} = 2$
+
+$\frac{p^2}{q^2} = 2 \Rightarrow p^2 = 2q^2$
+
+By $(ii)$, we can conclude that $p$ is even ($p = 2k, k \in \mathbb{Z}$).
+
+$p = 2k \Rightarrow \frac{(2k)^2}{q^2} = 2$
+
+$\Rightarrow \frac{4k^2}{2} = q^2$
+
+$\Rightarrow 2k^2 = q^2$
+
+By $(ii)$, we can conclude that $q$ also is even.
+
+$p$ and $q$ being even contradicts or assumption, since their greatest common divisor is $1$. Therefore there is no $x \in \mathbb{Q}$ that satisfies $x²=2$.
+
+Now we can go back to the geometric representation of numbers.
+
+If we draw a square and its diagonal, the square having its base supported by the line we are using to represent numbers, starting on point which has abscissa $0$ and the size of the square's side being one unit. We can conclude by pythagora's theorem that the size of the its diagonal ($d$) is the number which squared equals to $2$. Using a circunference centered on the point which abscissa is $0$ and radius equals to $d$, we can determine the point on the line that represents the number $d$, which as we demonstrated, is not rational.
+
+Our assumption will be that every point in the line has an abscissa  x, if $x$ is not rational we will call it $irrational$.
+
+The set that has both of them, rationals and irrationals, is called Real numbers represented by $\mathbb{R}$.
 
 ---
 A1 proof:
