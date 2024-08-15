@@ -100,6 +100,19 @@ $(xy)z = \frac{a_1 a_2 a_3}{b_1 b_2 b_3}$
 $x(yx) = \frac{a_1}{b_1} \cdot \frac{a_2 a_3}{b_2 b_3} = \frac{a_1 a_2 a_3}{b_1 b_2 b_3} = (xy)z$
 
 ---
+A3 proof:
+
+$0, 1 \in \mathbb{Z}\ \land\ GCD(0,1) = 1 \Rightarrow \frac{0}{1} \in \mathbb{Q}$
+
+Let a $x \in \mathbb{Q}$, being $x = \frac{p}{q}$ where $p, q \in \mathbb{Z}$
+
+Therefore:
+
+$x + \frac{0}{1} = \frac{p}{q} + \frac{0}{1} = \frac{1p + q0}{1q} = \frac{p + 0}{q} = \frac{p}{q}= x$
+
+Since $\frac{0}{1} = 0$, we conclude that $x + 0 = x$
+
+---
 O2 proof: 
 
 $x \leq y\ \Rightarrow \exists|\ t_1 \in \mathbb{Q},\ t_1 \geq 0\ |\ y = x+ t_1$
